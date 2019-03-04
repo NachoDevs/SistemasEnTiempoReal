@@ -35,7 +35,7 @@ package body sistemareal is
 	m_sc1:=20.0;
 	m_sc2:=400.0;
 	m_sr1:=t_sr1;
-	m_sd1:=sd(t_k, Sd1);
+	--m_sd1:=sd(t_k, Sd1);
 
 	m_tt:=(m_st1_1 + m_st2_1) / 2.0;
 	
@@ -45,10 +45,11 @@ package body sistemareal is
 
 	m_st1:=m_st2 - 11.0;
 
-		    
+        m_sd1:=24.0 * (0.135 + 0.003 * m_st2_1 - 0.0204 * m_st3 - 0.001 * m_sc2 + 0.00004 * m_st2_1 * m_sc2);
+      
 	ada.text_io.Put_Line(float'Image(sd(t_k, St1)));
 	
-	od:=(m_st1, m_st2, m_st3, m_st4, 20.0, 400.0, m_sr1, m_sd1);
+	od:=(m_st1, m_st2, m_st3, m_st4, m_sc1, m_sc2, m_sr1, m_sd1);
 	
 	For_Loop:
 	for s in sensores'Range loop      

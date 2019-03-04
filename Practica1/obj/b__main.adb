@@ -237,11 +237,11 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   F:\dev\SistemasEnTiempoReal\Practica1\obj\sistemareal.o
-   --   F:\dev\SistemasEnTiempoReal\Practica1\obj\main.o
-   --   -LF:\dev\SistemasEnTiempoReal\Practica1\obj\
-   --   -LF:\dev\SistemasEnTiempoReal\Practica1\obj\
-   --   -LF:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+   --   C:\Dev\ada\SistemasEnTiempoReal\Practica1\obj\sistemareal.o
+   --   C:\Dev\ada\SistemasEnTiempoReal\Practica1\obj\main.o
+   --   -LC:\Dev\ada\SistemasEnTiempoReal\Practica1\obj\
+   --   -LC:\Dev\ada\SistemasEnTiempoReal\Practica1\obj\
+   --   -LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
    --   -static
    --   -lgnat
    --   -Wl,--stack=0x2000000

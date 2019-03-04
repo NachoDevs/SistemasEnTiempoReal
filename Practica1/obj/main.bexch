@@ -1,20 +1,20 @@
 [GENERATED OBJECT FILE]
 b__main.o
 [PROJECT FILES]
-F:\dev\SistemasEnTiempoReal\Practica1\practica1.gpr
-20190302172222
+C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr
+20190304073652
 [BOUND OBJECT FILES]
-F:\dev\SistemasEnTiempoReal\Practica1\obj\sistemareal.o
-F:\dev\SistemasEnTiempoReal\Practica1\obj\main.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica1\obj\sistemareal.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica1\obj\main.o
 [GENERATED SOURCE FILES]
 b__main.ads
 b__main.adb
 b__main.ali
 [RESULTING OPTIONS]
--LF:\dev\SistemasEnTiempoReal\Practica1\obj\
--LF:\dev\SistemasEnTiempoReal\Practica1\obj\
--LF:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-LC:\Dev\ada\SistemasEnTiempoReal\Practica1\obj\
+-LC:\Dev\ada\SistemasEnTiempoReal\Practica1\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
 -static
 -static-libgcc
-F:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
 -Wl,--stack=0x2000000
