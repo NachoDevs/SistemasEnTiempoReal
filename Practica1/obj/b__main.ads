@@ -263,30 +263,34 @@ package ada_main is
    pragma Export (C, u00112, "system__finalization_rootS");
    u00113 : constant Version_32 := 16#cf3f1b90#;
    pragma Export (C, u00113, "system__file_control_blockS");
-   u00114 : constant Version_32 := 16#e96acb5e#;
+   u00114 : constant Version_32 := 16#8d2268e4#;
    pragma Export (C, u00114, "sistemarealB");
    u00115 : constant Version_32 := 16#f7f2b406#;
    pragma Export (C, u00115, "sistemarealS");
-   u00116 : constant Version_32 := 16#8aa4f090#;
-   pragma Export (C, u00116, "system__img_realB");
-   u00117 : constant Version_32 := 16#f508d0da#;
-   pragma Export (C, u00117, "system__img_realS");
-   u00118 : constant Version_32 := 16#36373acb#;
-   pragma Export (C, u00118, "system__fat_llfS");
-   u00119 : constant Version_32 := 16#1b28662b#;
-   pragma Export (C, u00119, "system__float_controlB");
-   u00120 : constant Version_32 := 16#d25cc204#;
-   pragma Export (C, u00120, "system__float_controlS");
-   u00121 : constant Version_32 := 16#3e932977#;
-   pragma Export (C, u00121, "system__img_lluB");
-   u00122 : constant Version_32 := 16#4feffd78#;
-   pragma Export (C, u00122, "system__img_lluS");
-   u00123 : constant Version_32 := 16#62d0e74f#;
-   pragma Export (C, u00123, "system__powten_tableS");
-   u00124 : constant Version_32 := 16#5dc07a5a#;
-   pragma Export (C, u00124, "system__memoryB");
-   u00125 : constant Version_32 := 16#6bdde70c#;
-   pragma Export (C, u00125, "system__memoryS");
+   u00116 : constant Version_32 := 16#273384e4#;
+   pragma Export (C, u00116, "system__img_enum_newB");
+   u00117 : constant Version_32 := 16#53ec87f8#;
+   pragma Export (C, u00117, "system__img_enum_newS");
+   u00118 : constant Version_32 := 16#8aa4f090#;
+   pragma Export (C, u00118, "system__img_realB");
+   u00119 : constant Version_32 := 16#f508d0da#;
+   pragma Export (C, u00119, "system__img_realS");
+   u00120 : constant Version_32 := 16#36373acb#;
+   pragma Export (C, u00120, "system__fat_llfS");
+   u00121 : constant Version_32 := 16#1b28662b#;
+   pragma Export (C, u00121, "system__float_controlB");
+   u00122 : constant Version_32 := 16#d25cc204#;
+   pragma Export (C, u00122, "system__float_controlS");
+   u00123 : constant Version_32 := 16#3e932977#;
+   pragma Export (C, u00123, "system__img_lluB");
+   u00124 : constant Version_32 := 16#4feffd78#;
+   pragma Export (C, u00124, "system__img_lluS");
+   u00125 : constant Version_32 := 16#62d0e74f#;
+   pragma Export (C, u00125, "system__powten_tableS");
+   u00126 : constant Version_32 := 16#5dc07a5a#;
+   pragma Export (C, u00126, "system__memoryB");
+   u00127 : constant Version_32 := 16#6bdde70c#;
+   pragma Export (C, u00127, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -296,6 +300,8 @@ package ada_main is
    --  system%s
    --  system.float_control%s
    --  system.float_control%b
+   --  system.img_enum_new%s
+   --  system.img_enum_new%b
    --  system.img_int%s
    --  system.img_int%b
    --  system.io%s

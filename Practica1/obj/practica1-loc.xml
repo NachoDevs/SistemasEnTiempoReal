@@ -1,10 +1,53 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_file>
-    <file_marker current="true" column=" 1" line=" 1" >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
       <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\sistemareal.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\sistemareal.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 110" line=" 48" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\sistemareal.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 38" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\sistemareal.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 48" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\sistemareal.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 73" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\sistemareal.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 54" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\sistemareal.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 34" line=" 53" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\sistemareal.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 54" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\sistemareal.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 21" line=" 55" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\sistemareal.adb</vfs_file>
     </file_marker>
   </Project>
   <Project >
