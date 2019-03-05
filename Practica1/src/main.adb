@@ -55,6 +55,7 @@ begin
 	Ada.Text_IO.Unbounded_IO.Put (F, Data);
     end loop For_Loop1;
     Ada.Text_IO.Unbounded_IO.Put_Line (F, Ada.Strings.Unbounded.To_Unbounded_String (""));  -- Salto de linea...
+    --Ada.Text_IO.Skip_Line(F);
 
     -- Vamos a emepezar a añadir los datos al archivo
     For_Loop2:

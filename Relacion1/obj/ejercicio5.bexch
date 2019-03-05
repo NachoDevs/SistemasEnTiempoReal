@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__ejercicio5.o
+[PROJECT FILES]
+C:\Dev\ada\SistemasEnTiempoReal\Relacion1\relacion1.gpr
+20190305170652
+[BOUND OBJECT FILES]
+C:\Dev\ada\SistemasEnTiempoReal\Relacion1\obj\ejercicio5.o
+[GENERATED SOURCE FILES]
+b__ejercicio5.ads
+b__ejercicio5.adb
+b__ejercicio5.ali
+[RESULTING OPTIONS]
+-LC:\Dev\ada\SistemasEnTiempoReal\Relacion1\obj\
+-LC:\Dev\ada\SistemasEnTiempoReal\Relacion1\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
