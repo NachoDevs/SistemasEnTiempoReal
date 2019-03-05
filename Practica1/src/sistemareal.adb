@@ -2,7 +2,7 @@ package body sistemareal is
 
     sd:sensorsData;
     
-    i :integer:=1;
+    i : integer := 1;
     
     function Planta (t_k : integer; t_sr1, t_st4, t_st3 : float) return outputData is
       
@@ -37,7 +37,7 @@ package body sistemareal is
 	m_sr1:=t_sr1;
 	--m_sd1:=sd(t_k, Sd1);
 
-	m_tt:=(m_st1_1 + m_st2_1) / 2.0;
+	m_tt := (m_st1_1 + m_st2_1) / 2.0;
 	
 	m_st2:=m_st1_1 +
 	  (((beta * Leq * m_sr1)-(h * (m_tt - m_st4))) * (c / (m_sc1 * Cp * rho)));

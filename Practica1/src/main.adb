@@ -1,4 +1,5 @@
-with Ada.Text_IO;
+with Ada.Text_IO.Unbounded_IO;
+with Ada.Strings.Unbounded;
 with SistemaReal;
 
 procedure Main is
@@ -10,7 +11,10 @@ procedure Main is
 
     dataTable:inputData;
 
-    od:SistemaReal.outputData;
+    od : SistemaReal.outputData;
+
+    F    : Ada.Text_IO.File_Type;
+    Data : Ada.Strings.Unbounded.Unbounded_String;
 
 begin
 
@@ -35,14 +39,20 @@ begin
 	od:=SistemaReal.Planta(k, dataTable(k, 1), dataTable(k, 2), dataTable(k, 3));
     end loop For_Loop;
 
+    Ada.Text_IO.Create(F, Ada.Text_IO.Out_File, "data.txt");
+
     -- Print for loop
     For_LoopI:
     for i in Integer range 1..maxRow loop
 	For_LoopJ:
 	for j in Integer range 1..maxCol loop
-	    Ada.Text_IO.Put_Line(float'Image(dataTable(i, j)));
+	    --Ada.Text_IO.Put_Line(float'Image(dataTable(i, j)));
+            data := Ada.Strings.Unbounded.To_Unbounded_String(float'Image(dataTable(i, j)) & ";");
+	    Ada.Text_IO.Unbounded_IO.Put (F, Data);
 	end loop For_LoopJ;
-	Ada.Text_IO.Put_Line("-----");
+	--Ada.Text_IO.Put_Line("-----");
+	Ada.Text_IO.Unbounded_IO.Put_Line(F, Ada.Strings.Unbounded.To_Unbounded_String(""));
     end loop For_LoopI;
 
+    Ada.Text_IO.Close(F);
 end Main;
