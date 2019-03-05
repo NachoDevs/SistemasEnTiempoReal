@@ -40,7 +40,7 @@ begin
     for i in Integer range 1..maxRow loop
 	For_LoopJ:
 	for j in Integer range 1..maxCol loop
-	    ada.Text_IO.Put_Line(float'Image(dataTable(i, j)));
+	    Ada.Text_IO.Put_Line(float'Image(dataTable(i, j)));
 	end loop For_LoopJ;
 	Ada.Text_IO.Put_Line("-----");
     end loop For_LoopI;

@@ -51,7 +51,7 @@ package body sistemareal is
 	For_Loop:
 	for s in sensores loop
 	    exit when i >= maxCol;--sensores'Range;
-	    ada.text_io.Put_Line(sensores'Image(s));
+	    --Ada.text_io.Put_Line(sensores'Image(s));
 	    sd(t_k, s):=od(i);
 	    i:=i+1;
 	end loop For_Loop;	
