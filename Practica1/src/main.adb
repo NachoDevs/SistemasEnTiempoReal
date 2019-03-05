@@ -34,25 +34,35 @@ begin
 		14=>(400.0, 21.0, 20.0),
 		15=>(350.0, 21.0, 21.0));
 
-    For_Loop:
-    for k in Integer range 1..maxRow loop
-	od:=SistemaReal.Planta(k, dataTable(k, 1), dataTable(k, 2), dataTable(k, 3));
-    end loop For_Loop;
 
     Ada.Text_IO.Create(F, Ada.Text_IO.Out_File, "data.txt");
 
-    -- Print for loop
-    For_LoopI:
-    for i in Integer range 1..maxRow loop
-	For_LoopJ:
-	for j in Integer range 1..maxCol loop
-	    --Ada.Text_IO.Put_Line(float'Image(dataTable(i, j)));
-            data := Ada.Strings.Unbounded.To_Unbounded_String(float'Image(dataTable(i, j)) & ";");
+    data := Ada.Strings.Unbounded.To_Unbounded_String ("k;");
+    Ada.Text_IO.Unbounded_IO.Put (F, Data);
+    For_Loop1 :
+    for s in SistemaReal.sensores loop
+	data := Ada.Strings.Unbounded.To_Unbounded_String (SistemaReal.sensores'Image(s) & ";");
+	Ada.Text_IO.Unbounded_IO.Put (F, Data);
+    end loop For_Loop1;
+    Ada.Text_IO.Unbounded_IO.Put_Line (F, Ada.Strings.Unbounded.To_Unbounded_String (""));  -- Salto de linea...
+
+
+    For_Loop2:
+    for k in Integer range 1..maxRow loop
+	od:=SistemaReal.Planta(k, dataTable(k, 1), dataTable(k, 2), dataTable(k, 3));
+
+	-- Print for loop
+
+	Ada.Text_IO.Unbounded_IO.Put(F, Ada.Strings.Unbounded.To_Unbounded_String (integer'Image(k) & ";"));
+
+	For_LoopI :
+	for i in Integer range 1 .. 8 loop
+	    --Ada.Text_IO.Put_Line(float'Image(od(i)));
+	    data := Ada.Strings.Unbounded.To_Unbounded_String (float'Image (od (i)) & ";");
 	    Ada.Text_IO.Unbounded_IO.Put (F, Data);
-	end loop For_LoopJ;
-	--Ada.Text_IO.Put_Line("-----");
-	Ada.Text_IO.Unbounded_IO.Put_Line(F, Ada.Strings.Unbounded.To_Unbounded_String(""));
-    end loop For_LoopI;
+	end loop For_LoopI;
+	Ada.Text_IO.Unbounded_IO.Put_Line (F, Ada.Strings.Unbounded.To_Unbounded_String (""));  -- Salto de linea...
+    end loop For_Loop2;
 
     Ada.Text_IO.Close(F);
 end Main;
