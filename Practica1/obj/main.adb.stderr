@@ -1,0 +1,3 @@
+main.adb:82:22: warning: "sd" may be referenced before it has a value
+main.adb:83:167: warning: value not in range of subtype of "Standard.Integer" defined at line 12
+main.adb:83:167: warning: "Constraint_Error" will be raised at run time

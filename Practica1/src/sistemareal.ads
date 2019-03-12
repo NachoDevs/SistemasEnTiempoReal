@@ -24,6 +24,6 @@ package SistemaReal is
     type outputData  is array (1 .. maxCol) of float;
    
     -- Funcion que trata los datos
-    function Planta (t_k : integer; t_sr1, t_st4, t_st3 : float) return outputData; -- devuelve un vector con los datos
+    function Planta (t_k : integer; t_sr1, t_st4, t_st3, t_sc1, t_sc2 : float) return outputData; -- devuelve un vector con los datos
         
 end SistemaReal;

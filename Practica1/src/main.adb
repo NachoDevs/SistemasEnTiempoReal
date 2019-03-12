@@ -14,12 +14,25 @@ procedure Main is
     -- Creamos la matriz de entrada
     dataTable:inputData;
 
-    -- Creamos el array para los datos de la simulacion
+    -- Creamos la matriz para los datos de la simulacion
+    sd : SistemaReal.sensorsData;
+
+    -- Creamos un array para los datos de salida
     od : SistemaReal.outputData;
 
     -- Variables para la lectura y escritura de archivos
     F    : Ada.Text_IO.File_Type;
     Data : Ada.Strings.Unbounded.Unbounded_String;
+
+    -- Valor auxiliar para un bucle
+    i : integer := 0;
+
+    m_sc1 : float;
+    m_sc2 : float;
+
+    -- Valores optimos
+    m_oSd1 : float := 25.0;
+    m_oSt2 : float := 80.0;
 
 begin
 
@@ -61,17 +74,32 @@ begin
     For_Loop2:
     for k in Integer range 1 .. maxRow loop
 	-- Conseguimos los datos para la k correspondiente
-	od:=SistemaReal.Planta(k, dataTable(k, 1), dataTable(k, 2), dataTable(k, 3));
+
+	if k < 2 then    -- Valores por defecto
+	    m_sc1  := 20.0;
+	    m_sc2  := 400.0;
+	else
+	    m_sc1 := sd(k-1, SistemaReal.St1) +
+	      (((SistemaReal.beta * SistemaReal.Leq * dataTable(k, 1))-(SistemaReal.h * (((sd(k-1, SistemaReal.St1) + sd(k-1, SistemaReal.St2)) / 2.0) - dataTable(k, 4))))
+	      * (SistemaReal.c / (m_oSt2 * SistemaReal.Cp * SistemaReal.rho)));
+
+	    m_sc2 := ((m_oSd1 / 24.0) - (0.135 + 0.003 * sd(k-1, SistemaReal.St2) - 0.0204 * dataTable(k, 3)))
+	      / (0.001 + 0.00004 * sd(k-1, SistemaReal.St2));
+	end if;
+
+	-- Planta (t_k : integer; t_sr1, t_st4, t_st3, t_sc1, t_sc2 : float)
+	od := SistemaReal.Planta (k, dataTable (k, 1), dataTable (k, 2), dataTable (k, 3), m_sc1, m_sc2);
 
 	-- Añadimos el valor de la primera columna, que es la k
 	Ada.Text_IO.Unbounded_IO.Put(F, Ada.Strings.Unbounded.To_Unbounded_String (integer'Image(k) & ";"));
 
 	-- Ahora vamos a leer la salida, que es un array de datos y los vamos introduciendo al archivo
 	For_LoopI :
-	for i in Integer range 1 .. 8 loop
-	    --Ada.Text_IO.Put_Line(float'Image(od(i)));
-	    data := Ada.Strings.Unbounded.To_Unbounded_String (float'Image (od (i)) & ";");
+	for s in SistemaReal.sensores loop
+	    sd(k, s):=od(i);
+	    data := Ada.Strings.Unbounded.To_Unbounded_String (float'Image (sd(k, s)) & ";");
 	    Ada.Text_IO.Unbounded_IO.Put (F, Data);
+	    i:=i+1;
 	end loop For_LoopI;
 	Ada.Text_IO.Unbounded_IO.Put_Line (F, Ada.Strings.Unbounded.To_Unbounded_String (""));  -- Salto de linea...
     end loop For_Loop2;

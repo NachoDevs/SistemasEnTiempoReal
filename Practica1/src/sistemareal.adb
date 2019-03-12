@@ -6,7 +6,7 @@ package body sistemareal is
     i : integer := 1;
     
     -- Funcion que devuelve los datos procesados
-    function Planta (t_k : integer; t_sr1, t_st4, t_st3 : float) return outputData is
+    function Planta (t_k : integer; t_sr1, t_st4, t_st3, t_sc1, t_sc2 : float) return outputData is
       
 	-- Variable para la salida de la simulacion
 	od:outputData;
@@ -22,25 +22,25 @@ package body sistemareal is
 	m_sc2   :float;
 	m_sr1   :float;
 	m_sd1   :float;
-	m_tt    :float;
+	m_tt    : float;
 
     begin
-	
-	if t_k < 2 then    -- Valores por defecto
-	    m_st1_1:=50.0;
-	    m_st2_1:=60.0;
-	else
-	    m_st1_1:=sd(t_k-1, St1);
-	    m_st2_1:=sd(t_k-1, St2);
-	end if;
 	    
 	-- Asignacion de datos iniciales
 	m_st3:=t_st3;
 	m_st4:=t_st4;
-	m_sc1:=20.0;
-	m_sc2:=400.0;
 	m_sr1:=t_sr1;
 	--m_sd1:=sd(t_k, Sd1);
+	m_sc1 := t_sc1;
+	m_sc2 := t_sc2;
+
+	if t_k < 2 then    -- Valores por defecto
+	    m_st1_1:= 50.0;
+	    m_st2_1:= 60.0;
+	else
+	    m_st1_1:=sd(t_k-1, St1);
+	    m_st2_1:=sd(t_k-1, St2);
+	end if;
 
 	-- 2
 	m_tt := (m_st1_1 + m_st2_1) / 2.0;
