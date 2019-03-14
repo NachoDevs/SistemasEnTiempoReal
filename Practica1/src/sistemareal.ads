@@ -8,7 +8,7 @@ package SistemaReal is
     h   : float := 4.0;
     c   : float := 1080000.0;
     Cp  : float := 4190.0;
-    rho : float := 97.05;    --p
+    rho : float := 975.0;    --p
     
     -- Variables para las matrices
     maxRow : integer := 15;

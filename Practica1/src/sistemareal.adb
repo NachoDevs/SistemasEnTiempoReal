@@ -48,7 +48,7 @@ package body sistemareal is
 	--1
 	m_st2:=m_st1_1 +
 	  (((beta * Leq * m_sr1)-(h * (m_tt - m_st4))) * (c / (m_sc1 * Cp * rho)));
-
+	
 	-- 3
 	m_st1:=m_st2 - 11.0;
 	
@@ -62,10 +62,11 @@ package body sistemareal is
 	For_Loop:
 	for s in sensores loop
 	    exit when i >= maxCol;--sensores'Range;
-	    --Ada.text_io.Put_Line(sensores'Image(s));
-	    sd(t_k, s):=od(i);
+	    sd (t_k, s) := od (i);
 	    i:=i+1;
-	end loop For_Loop;	
+	end loop For_Loop; 	
+	-- Reseteamos la variable para futuras iteraciones
+	i := 1;
 	
 	return od;
    
