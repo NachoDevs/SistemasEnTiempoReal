@@ -91,6 +91,16 @@ begin
 	m_sc2 := ((m_oSd1 / 24.0) - (0.135 + 0.003 * m_oSt2 - 0.0204 * dataTable(k, 3)))
 	  / (-0.001 + 0.00004 * m_oSt2);
 
+	-- Medida de seguridad para el campo solar termico
+	if m_st2_1 > 100.0 then
+	    m_sc1 := 0.0;
+	end if;
+
+	-- Medida de seguirdad para el modulo de destilacion
+	if dataTable (k, 3) > 85.0 then
+	    m_sc2 := 0.0;
+	end if;
+
 	-- Delimitando SC1
 	if m_sc1 < 7.5 then
 	    m_sc1 := 7.5;
