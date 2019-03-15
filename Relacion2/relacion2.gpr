@@ -1,0 +1,8 @@
+project Relacion2 is
+
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Main use ("ejercicio1_opcional", "ejercicio1.adb");
+
+end Relacion2;
+
