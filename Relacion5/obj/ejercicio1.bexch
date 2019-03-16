@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__ejercicio1.o
+[PROJECT FILES]
+F:\dev\SistemasEnTiempoReal\Relacion5\relacion5.gpr
+20190316070246
+[BOUND OBJECT FILES]
+F:\dev\SistemasEnTiempoReal\Relacion5\obj\numeros_complejos.o
+F:\dev\SistemasEnTiempoReal\Relacion5\obj\ejercicio1.o
+[GENERATED SOURCE FILES]
+b__ejercicio1.ads
+b__ejercicio1.adb
+b__ejercicio1.ali
+[RESULTING OPTIONS]
+-LF:\dev\SistemasEnTiempoReal\Relacion5\obj\
+-LF:\dev\SistemasEnTiempoReal\Relacion5\obj\
+-LF:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+F:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
