@@ -1,0 +1,65 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		d6401638 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W cola%s		cola.adb		cola.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-flteio.ads		20180524051736 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-tiflio.ads		20180524051736 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D cola.ads		20190316121832 f04f2b6a cola%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D main.adb		20190316121832 4f98c9a8 main%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 13|3r6 3r19 4r5 4r18
+X 3 a-flteio.ads
+20K13*Float_Text_IO[8|46] 13|3w23 4r22
+X 7 a-textio.ads
+49K13*Text_IO 471e16 13|3w10 4r9
+263U14*Put_Line 13|22s7
+X 10 cola.ads
+1K9*Cola 12e9 13|1w6 2r5
+4I9*Elemento<short_short_integer> 13|7r7 13r12 20r14
+6V13*Vacia{boolean} 13|18s10
+8U14*Poner 13|14s7
+10U14*Quitar 13|20s7
+X 13 main.adb
+6U11*main 6b11 25l5 25t9
+7i4 E{10|4I9} 13m7 14r13
+8i4 Eliminado{integer} 20m23 20r23 22r30
+12i8 i{integer} 13r21
+
