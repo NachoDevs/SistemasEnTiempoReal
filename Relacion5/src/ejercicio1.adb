@@ -25,35 +25,35 @@ begin
     --Ada.Text_IO.New_Line(1);
 
     -- Suma
-    Ada.Text_IO.Put("suma = ");
+    Ada.Text_IO.Put("Suma = ");
     z:=Numeros_Complejos."+"(x,y);
     str := Numeros_Complejos.ToString(z);
     Ada.Text_IO.Unbounded_IO.Put_Line(str);
     --Ada.Text_IO.New_Line(1);
 
     -- Resta
-    Ada.Text_IO.Put("resta = ");
+    Ada.Text_IO.Put("Resta = ");
     z:=Numeros_Complejos."-"(x,y);
     str := Numeros_Complejos.ToString(z);
     Ada.Text_IO.Unbounded_IO.Put_Line(str);
     --Ada.Text_IO.New_Line(1);
 
     -- Multiplicacion
-    Ada.Text_IO.Put("multiplicacion = ");
+    Ada.Text_IO.Put("Multiplicacion = ");
     z:=Numeros_Complejos."*"(x,y);
     str := Numeros_Complejos.ToString(z);
     Ada.Text_IO.Unbounded_IO.Put_Line(str);
     --Ada.Text_IO.New_Line(1);
 
     -- Division
-    Ada.Text_IO.Put("division = ");
+    Ada.Text_IO.Put("Division = ");
     z:=Numeros_Complejos."/"(x,y);
     str := Numeros_Complejos.ToString(z);
     Ada.Text_IO.Unbounded_IO.Put_Line(str);
     --Ada.Text_IO.New_Line(1);
 
     -- Conjugacion
-    Ada.Text_IO.Put("conjugado (x) = ");
+    Ada.Text_IO.Put("Conjugado (x) = ");
     z:=Numeros_Complejos.Conjugacion(x);
     str := Numeros_Complejos.ToString(z);
     Ada.Text_IO.Unbounded_IO.Put_Line(str);
