@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\laura\Documents\STR\relacion4.gpr
+20190316121720
+[BOUND OBJECT FILES]
+C:\Users\laura\Documents\STR\obj\cola.o
+C:\Users\laura\Documents\STR\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\laura\Documents\STR\obj\
+-LC:\Users\laura\Documents\STR\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

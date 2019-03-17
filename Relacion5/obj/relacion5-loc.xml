@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>F:\dev\SistemasEnTiempoReal\Relacion5\relacion5.gpr</vfs_file>
+  <Project >
     <file_marker column=" 1" line=" 1" >
       <vfs_project>F:\dev\SistemasEnTiempoReal\Relacion5\relacion5.gpr</vfs_project>
       <vfs_file>F:\dev\SistemasEnTiempoReal\Relacion5\src\ejercicio1.adb</vfs_file>
