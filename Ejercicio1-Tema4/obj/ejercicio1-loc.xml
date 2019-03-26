@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
+    <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\ejercicio1.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\src\main.adb</vfs_file>
@@ -262,7 +262,39 @@
       <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\ejercicio1.gpr</vfs_project>
       <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\src\apartado2.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 4" line=" 3" >
+    <file_marker column=" 1" line=" 53" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\ejercicio1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\src\apartado3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 17" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\ejercicio1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\src\apartado3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 45" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\ejercicio1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\src\apartado3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 7" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\ejercicio1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\src\apartado3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 6" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\ejercicio1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\src\apartado3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 1" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\ejercicio1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\src\apartado3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 6" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\ejercicio1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\src\apartado3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 9" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\ejercicio1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\src\apartado3.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 13" line=" 47" >
       <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\ejercicio1.gpr</vfs_project>
       <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Ejercicio1-Tema4\src\apartado3.adb</vfs_file>
     </file_marker>
