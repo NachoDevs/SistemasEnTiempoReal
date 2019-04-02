@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__mainsecuencial.o
+[PROJECT FILES]
+C:\Dev\ada\SistemasEnTiempoReal\Practica2\practica2.gpr
+20190402165200
+[BOUND OBJECT FILES]
+C:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\tipos_datos.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\control.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\io.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\modulos.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\mainsecuencial.o
+[GENERATED SOURCE FILES]
+b__mainsecuencial.ads
+b__mainsecuencial.adb
+b__mainsecuencial.ali
+[RESULTING OPTIONS]
+-LC:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\
+-LC:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

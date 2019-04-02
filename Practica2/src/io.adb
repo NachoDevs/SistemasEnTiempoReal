@@ -3,6 +3,8 @@ use Ada.Text_IO;
 
 package body IO is
 
+    ----------------Leer--------------------
+    
     procedure Leer (t_temp : out Temperatura) is
     begin
 	t_temp := 10.0;
@@ -20,6 +22,8 @@ package body IO is
 	t_rad := 10.0;
 	Put_Line ("Leyendo radiacion: " & t_rad'image);
     end;
+
+   --------------Escribir------------------
     
     procedure Escribir (t_temp : in Temperatura) is
     begin
@@ -34,6 +38,23 @@ package body IO is
     procedure Escribir (t_rad : in Radiacion) is
     begin
 	Put_Line ("Escribiendo radiacion: " & t_rad'image);
+    end;
+    
+    ---------------Enviar-------------------
+    
+    procedure Enviar (t_temp : in Temperatura) is
+    begin
+	Put_Line ("Enviando temperatura: " & t_temp'image);
+    end;
+    
+    procedure Enviar (t_caud : in Caudal) is
+    begin
+	Put_Line ("Enviando caudal: " & t_caud'image);
+    end;
+
+    procedure Enviar (t_rad : in Radiacion) is
+    begin
+	Put_Line ("Enviando radiacion: " & t_rad'image);
     end;
     
 end IO;

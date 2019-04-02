@@ -11,4 +11,8 @@ package IO is
     procedure Escribir (t_caud : in Caudal);
     procedure Escribir (t_rad  : in Radiacion);
 
+    procedure Enviar (t_temp : in Temperatura);
+    procedure Enviar (t_caud : in Caudal);
+    procedure Enviar (t_rad  : in Radiacion);
+    
 end IO;

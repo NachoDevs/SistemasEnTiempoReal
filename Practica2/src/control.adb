@@ -14,7 +14,7 @@ package body control is
     begin
 	t_bomb := On;
 	
-	Put_Line ("Controlando la temperatura(" 
+	Put_Line ("Controlando SC1(" 
 	   & "), estado de la bomba: " & t_bomb'image);
     end;
     
