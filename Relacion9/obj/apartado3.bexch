@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__apartado3.o
+[PROJECT FILES]
+C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr
+20190402162610
+[BOUND OBJECT FILES]
+C:\Dev\ada\SistemasEnTiempoReal\Relacion9\obj\putter.o
+C:\Dev\ada\SistemasEnTiempoReal\Relacion9\obj\semaforos.o
+C:\Dev\ada\SistemasEnTiempoReal\Relacion9\obj\apartado3.o
+[GENERATED SOURCE FILES]
+b__apartado3.ads
+b__apartado3.adb
+b__apartado3.ali
+[RESULTING OPTIONS]
+-LC:\Dev\ada\SistemasEnTiempoReal\Relacion9\obj\
+-LC:\Dev\ada\SistemasEnTiempoReal\Relacion9\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnarl.a
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

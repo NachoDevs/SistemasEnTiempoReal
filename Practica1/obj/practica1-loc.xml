@@ -1,10 +1,13 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_file>
-    <file_marker current="true" column=" 1" line=" 1" >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
       <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica1\src\sistemareal.ads</vfs_file>
     </file_marker>
   </Project>
   <Project >

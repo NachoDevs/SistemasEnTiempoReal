@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\apartado2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\semaforos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\semaforos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\semaforos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\semaforos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\apartado2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 7" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\apartado2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 13" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\apartado2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\putter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 13" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\apartado2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 5" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\semaforos.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 3" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\relacion9.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\apartado3.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
