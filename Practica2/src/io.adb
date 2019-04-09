@@ -5,56 +5,63 @@ package body IO is
 
     ----------------Leer--------------------
     
-    procedure Leer (t_temp : out Temperatura) is
+    function Leer (t_temp : out Temperatura) return string is
     begin
 	t_temp := 10.0;
-	Put_Line ("Leyendo temperatura: " & t_temp'image);
+	Return ("Leyendo temperatura: " & t_temp'image);
     end;
     
-    procedure Leer (t_caud : out Caudal) is
+    function Leer (t_caud : out Caudal) return string is
     begin
 	t_caud := 10.0;
-	Put_Line ("Leyendo caudal: " & t_caud'image);
+	Return ("Leyendo caudal: " & t_caud'image);
     end;
 
-    procedure Leer (t_rad  : out Radiacion) is
+    function Leer (t_rad  : out Radiacion) return string is
     begin
 	t_rad := 10.0;
-	Put_Line ("Leyendo radiacion: " & t_rad'image);
+	Return ("Leyendo radiacion: " & t_rad'image);
     end;
 
    --------------Escribir------------------
     
-    procedure Escribir (t_temp : in Temperatura) is
+    function Escribir (t_temp : in Temperatura) return string is
     begin
-	Put_Line ("Escribiendo temperatura: " & t_temp'image);
+	Return ("Escribiendo temperatura: " & t_temp'image);
     end;
     
-    procedure Escribir (t_caud : in Caudal) is
+    function Escribir (t_caud : in Caudal) return string is
     begin
-	Put_Line ("Escribiendo caudal: " & t_caud'image);
+	Return ("Escribiendo caudal: " & t_caud'image);
     end;
 
-    procedure Escribir (t_rad : in Radiacion) is
+    function Escribir (t_rad : in Radiacion) return string is
     begin
-	Put_Line ("Escribiendo radiacion: " & t_rad'image);
+	Return ("Escribiendo radiacion: " & t_rad'image);
     end;
     
     ---------------Enviar-------------------
     
-    procedure Enviar (t_temp : in Temperatura) is
+    function Enviar (t_temp : in Temperatura) return string is
     begin
-	Put_Line ("Enviando temperatura: " & t_temp'image);
+	Return ("Enviando temperatura: " & t_temp'image);
     end;
     
-    procedure Enviar (t_caud : in Caudal) is
+    function Enviar (t_caud : in Caudal) return string is
     begin
-	Put_Line ("Enviando caudal: " & t_caud'image);
+	Return ("Enviando caudal: " & t_caud'image);
     end;
 
-    procedure Enviar (t_rad : in Radiacion) is
+    function Enviar (t_rad : in Radiacion) return string is
     begin
-	Put_Line ("Enviando radiacion: " & t_rad'image);
+	Return ("Enviando radiacion: " & t_rad'image);
     end;
+
+    -------------Verificar-----------------
     
+    function Verificar return string is
+    begin
+	Return ("Comprobando temperaturas");
+    end;
+        
 end IO;

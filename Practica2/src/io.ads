@@ -3,16 +3,18 @@ use tipos_datos;
 
 package IO is
 
-    procedure Leer (t_temp : out Temperatura);
-    procedure Leer (t_caud : out Caudal);
-    procedure Leer (t_rad  : out Radiacion);
+    function Leer (t_temp : out Temperatura) return string;
+    function Leer (t_caud : out Caudal) return string;
+    function Leer (t_rad  : out Radiacion) return string;
     
-    procedure Escribir (t_temp : in Temperatura);
-    procedure Escribir (t_caud : in Caudal);
-    procedure Escribir (t_rad  : in Radiacion);
+    function Escribir (t_temp : in Temperatura) return string;
+    function Escribir (t_caud : in Caudal) return string;
+    function Escribir (t_rad  : in Radiacion) return string;
 
-    procedure Enviar (t_temp : in Temperatura);
-    procedure Enviar (t_caud : in Caudal);
-    procedure Enviar (t_rad  : in Radiacion);
+    function Enviar (t_temp : in Temperatura) return string;
+    function Enviar (t_caud : in Caudal) return string;
+    function Enviar (t_rad  : in Radiacion) return string;
+    
+    function Verificar return string;
     
 end IO;

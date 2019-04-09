@@ -1,5 +1,5 @@
 [GENERATED OBJECT FILE]
-b__mainsecuencial.o
+b__mainconcurrente.o
 [PROJECT FILES]
 C:\Dev\ada\SistemasEnTiempoReal\Practica2\practica2.gpr
 20190409144336
@@ -8,16 +8,19 @@ C:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\tipos_datos.o
 C:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\control.o
 C:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\io.o
 C:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\modulos.o
-C:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\mainsecuencial.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\mainconcurrente.o
 [GENERATED SOURCE FILES]
-b__mainsecuencial.ads
-b__mainsecuencial.adb
-b__mainsecuencial.ali
+b__mainconcurrente.ads
+b__mainconcurrente.adb
+b__mainconcurrente.ali
 [RESULTING OPTIONS]
 -LC:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\
 -LC:\Dev\ada\SistemasEnTiempoReal\Practica2\obj\
 -LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
 -static
 -static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnarl.a
 C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
--Wl,--stack=0x2000000
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
