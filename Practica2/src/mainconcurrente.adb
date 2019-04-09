@@ -1,22 +1,39 @@
 with modulos;
 
+with Ada.Real_Time;
+use Ada.Real_Time;
+
 procedure mainConcurrente is
     
-    reps : integer := 10;
+    reps : integer := 10; -- Número de iteraciones en la ejecucion del ejercicio
     
-    i : integer := 0;
-    j : integer := 0;
-    k : integer := 0;
+    i : integer := 0;     -- Variable auxiliar para el bucle del Campo Solar
+    j : integer := 0;     -- Variable auxiliar para el bucle del Modulo de Destilacion
+    k : integer := 0;     -- Variable auxiliar para el bucle del Sistema de Seguridad
 
+    Tiempo1, Tiempo2, Tiempo3 : Time;
+    Limite1, Limite2, Limite3 : Time;
+    C1      : Time_Span := Milliseconds (10);
+    C2      : Time_Span := Milliseconds (10);
+    T1      : Time_Span := Milliseconds (100);
+    T2      : Time_Span := Milliseconds (200);   
+    T3      : Time_Span := Milliseconds (50);   
+    
     task type CS;
     type REF_CS is access CS;
     
     task body CS is
     begin
+	Tiempo1 := clock;
 	for i in 1 .. reps loop
-	    delay 0.1;
-	    Modulos.CampoSolar;
-	    delay 0.01;
+	    delay until (Tiempo1);
+	    limite1 := Tiempo1 + C1;
+	    select
+		delay until (limite1);
+	    then abort
+		Modulos.CampoSolar;
+	    end select;
+	    Tiempo1 := Tiempo1 + T1;
 	end loop;
     end;
 
@@ -25,10 +42,16 @@ procedure mainConcurrente is
     
     task body MD is
     begin
-	for j in 1 .. reps loop
-	    delay 0.2;
-	    Modulos.ModuloDestilacion;
-	    delay 0.01;
+	Tiempo2 := clock;
+	for i in 1 .. reps loop
+	    delay until (Tiempo2);
+	    limite2 := Tiempo2 + C2;
+	    select
+		delay until (limite2);
+	    then abort
+		Modulos.CampoSolar;
+	    end select;
+	    Tiempo2 := Tiempo2 + T2;
 	end loop;
     end;
 
@@ -37,9 +60,16 @@ procedure mainConcurrente is
     
     task body SS is
     begin
+	Tiempo3 := clock;
 	for i in 1 .. reps loop
-	    delay 0.05;
-	    Modulos.SistemaDeSeguridad;
+	    delay until (Tiempo3);
+	    limite3 := Tiempo3;
+	    select
+		delay until (limite3);
+	    then abort
+		Modulos.CampoSolar;
+	    end select;
+	    Tiempo3 := Tiempo3 + T3;
 	end loop;
     end;
 
