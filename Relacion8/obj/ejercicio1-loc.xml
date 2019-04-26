@@ -1,10 +1,33 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion8\ejercicio1.gpr</vfs_file>
+    <vfs_file>F:\dev\SistemasEnTiempoReal\Relacion8\ejercicio1.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>F:\dev\SistemasEnTiempoReal\Relacion8\ejercicio1.gpr</vfs_project>
+      <vfs_file>F:\dev\SistemasEnTiempoReal\Relacion8\src\apartado1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>F:\dev\SistemasEnTiempoReal\Relacion8\ejercicio1.gpr</vfs_project>
+      <vfs_file>F:\dev\SistemasEnTiempoReal\Relacion8\src\apartado2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>F:\dev\SistemasEnTiempoReal\Relacion8\ejercicio1.gpr</vfs_project>
+      <vfs_file>F:\dev\SistemasEnTiempoReal\Relacion8\src\apartado3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 13" >
+      <vfs_project>F:\dev\SistemasEnTiempoReal\Relacion8\ejercicio1.gpr</vfs_project>
+      <vfs_file>F:\dev\SistemasEnTiempoReal\Relacion8\src\apartado2.adb</vfs_file>
+    </file_marker>
     <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Relacion8\ejercicio1.gpr</vfs_project>
-      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion8\src\apartado3.adb</vfs_file>
+      <vfs_project>F:\dev\SistemasEnTiempoReal\Relacion8\ejercicio1.gpr</vfs_project>
+      <vfs_file>F:\dev\SistemasEnTiempoReal\Relacion8\src\apartado1.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Dev\ada\SistemasEnTiempoReal\Relacion8\ejercicio1.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >C:\Dev\ada\SistemasEnTiempoReal\Relacion8\ejercicio1.gpr</vfs_project>
+      <vfs_file >C:\Dev\ada\SistemasEnTiempoReal\Relacion8\src\apartado3.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

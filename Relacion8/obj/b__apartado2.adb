@@ -298,10 +298,10 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Dev\ada\SistemasEnTiempoReal\Relacion8\obj\apartado2.o
-   --   -LC:\Dev\ada\SistemasEnTiempoReal\Relacion8\obj\
-   --   -LC:\Dev\ada\SistemasEnTiempoReal\Relacion8\obj\
-   --   -LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+   --   F:\dev\SistemasEnTiempoReal\Relacion8\obj\apartado2.o
+   --   -LF:\dev\SistemasEnTiempoReal\Relacion8\obj\
+   --   -LF:\dev\SistemasEnTiempoReal\Relacion8\obj\
+   --   -LF:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
    --   -static
    --   -lgnarl
    --   -lgnat
