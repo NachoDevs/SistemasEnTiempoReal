@@ -1,0 +1,24 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U tipos_datos%s		tipos_datos.ads		76326c02 NE OO PK
+
+D system.ads		20180524051738 32a08138 system%s
+D tipos_datos.ads	20190326174204 76326c02 tipos_datos%s
+X 2 tipos_datos.ads
+1K9*Tipos_Datos 9l5 9e16
+3F10*Temperatura<float>
+4F10*Caudal<float>
+5F10*Radiacion<float>
+7E10*EstadoBomba 7e34
+7n26*On{7E10}
+7n30*Off{7E10}
+

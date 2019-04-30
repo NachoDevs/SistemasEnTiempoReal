@@ -1,0 +1,20 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U data_type%s		data_type.ads		0f89e80e NE OO PK
+
+D data_type.ads		20190326160236 0f89e80e data_type%s
+D system.ads		20180524051738 32a08138 system%s
+X 1 data_type.ads
+1K9*Data_Type 7l5 7e14
+3I10*TA<integer>
+4I10*TB<integer>
+5I10*TC<integer>
+

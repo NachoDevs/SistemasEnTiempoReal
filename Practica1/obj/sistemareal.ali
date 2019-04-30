@@ -1,0 +1,99 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U sistemareal%b		sistemareal.adb		20845b0a OO PK IL
+Z ada.tags%s		a-tags.adb		a-tags.ali
+
+U sistemareal%s		sistemareal.ads		8c783a3d EE NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D sistemareal.ads	20190314102730 04658967 sistemareal%s
+D sistemareal.adb	20190314105334 24e1d26d sistemareal%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|1r6
+X 6 a-textio.ads
+49K13*Text_IO 471e16 10|1w10
+X 10 sistemareal.ads
+3K9*SistemaReal 29l5 29e16 11|1b14 86l5 86t16
+6f5*beta{float} 11|50r14
+7f5*Leq{float} 11|50r21
+8f5*h{float} 11|50r35
+9f5*c{float} 11|50r59
+10f5*Cp{float} 11|50r72
+11f5*rho{float} 11|50r77
+14i5*maxRow{integer} 21r37 11|79r31
+15i5*maxCol{integer} 24r37 11|64r28
+18E10*sensores 18e62 21r45 11|63r18 81r18
+18n23*St1{18E10} 11|41r32
+18n28*St2{18E10} 11|42r32
+18n33*St3{18E10}
+18n38*St4{18E10}
+18n43*Sc1{18E10}
+18n48*Sc2{18E10}
+18n53*Sr1{18E10}
+18n58*Sd1{18E10}
+21A10*sensorsData(float)<integer><18E10> 11|4r8
+24A10*outputData(float)<integer> 27r87 11|9r87 12r12
+27V14*Planta{24A10} 27>22 27>37 27>44 27>51 27>58 27>65 11|9b14 73l9 73t15
+27i22 t_k{integer} 11|9b22 37r12 41r25 42r25 65r17
+27f37 t_sr1{float} 11|9b37 32r16
+27f44 t_st4{float} 11|9b44 31r16
+27f51 t_st3{float} 11|9b51 30r16
+27f58 t_sc1{float} 11|9b58 34r18
+27f65 t_sc2{float} 11|9b65 35r18
+X 11 sistemareal.adb
+4a5 sd{10|21A10} 41r22 42r22 65m13 82m13
+6i5 i{integer} 64r23 65r32 66m13 66r16 69m9
+12a9 od{10|24A10} 59m9 65r28 71r16
+15f9 m_st1{float} 53m9 59r14
+16f9 m_st1_1{float} 38m13 41m13 46r18 49r16
+17f9 m_st2{float} 49m9 53r16 59r21
+18f9 m_st2_1{float} 39m13 42m13 46r28 56r40 56r93
+19f9 m_st3{float} 30m9 56r59 59r28
+20f9 m_st4{float} 31m9 50r47 59r35
+21f9 m_sc1{float} 34m9 50r64 59r42
+22f9 m_sc2{float} 35m9 56r75 56r103 59r49
+23f9 m_sr1{float} 32m9 50r27 59r56
+24f9 m_sd1{float} 56m9 59r63
+25f9 m_tt{float} 46m9 50r40
+62l9 For_Loop 67l18 67e26
+63e13 s{10|18E10} 65r22
+78l5 For_LoopI 84l14 84e23
+79i9 i{integer} 82r16
+80l9 For_LoopJ 83l18 83e27
+81e13 j{10|18E10} 82r19
+

@@ -1,0 +1,29 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		e86d2290 NE OO SU
+W control%s		control.adb		control.ali
+W io%s			io.adb			io.ali
+W tipos_datos%s		tipos_datos.ads		tipos_datos.ali
+
+D control.ads		20190326180730 7c2df8de control%s
+D io.ads		20190402164656 9ab4907a io%s
+D main.adb		20190326173944 78c62636 main%b
+D system.ads		20180524051738 32a08138 system%s
+D tipos_datos.ads	20190326174204 76326c02 tipos_datos%s
+X 1 control.ads
+4K9*control 18e12 3|3w6
+X 2 io.ads
+4K9*IO 18e7 3|1w6
+X 3 main.adb
+5U11*Main 5b11 10l5 10t9
+X 5 tipos_datos.ads
+1K9*Tipos_Datos 3|2w6 5|9e16
+

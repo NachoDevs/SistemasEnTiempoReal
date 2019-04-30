@@ -1,0 +1,85 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U control%b		control.adb		368fe94d NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U control%s		control.ads		20c71cb5 EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W tipos_datos%s		tipos_datos.ads		tipos_datos.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D control.ads		20190409150934 dee8c3ed control%s
+D control.adb		20190409151008 607a99fa control%b
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051738 32a08138 system%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imenne.ads		20180524051736 614c06c0 system.img_enum_new%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D tipos_datos.ads	20190326174204 76326c02 tipos_datos%s
+X 1 ada.ads
+16K9*Ada 20e8 8|2r8 5r7 9|1r6 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 8|2w12 5r11 9|1w10 2r9
+X 8 control.ads
+7K9*control 21l5 21e12 9|4b14 33l5 33t12
+9V14*ControlarSC1{string} 9>28 10>29 11>29 12>29 13>29 14<29 9|8b14 19t8
+9f28 t_oSt1{27|3F10} 9|8b28
+10f29 t_oSt2{27|3F10} 9|9b29
+11f29 t_st2{27|3F10} 9|10b29
+12f29 t_st4{27|3F10} 9|11b29
+13f29 t_sr1{27|5F10} 9|12b29
+14e29 t_bomb{27|7E10} 9|13b29 15m9 18r42
+16V14*ControlarSC2{string} 16>28 17>29 18>29 19<29 9|22b14 31t8
+16f28 t_oSt2{27|3F10} 9|22b28
+17f29 t_st3{27|3F10} 9|23b29
+18f29 t_sd1{27|4F10} 9|24b29
+19e29 t_bomb{27|7E10} 9|25b29 27m9 30r42
+X 9 control.adb
+6e5 t_bomb{27|7E10}
+X 27 tipos_datos.ads
+1K9*Tipos_Datos 8|1w6 4r5 27|9e16
+3F10*Temperatura<float> 8|9r37 10r38 11r38 12r38 16r37 17r38 9|8r37 9r38
+. 10r38 11r38 22r37 23r38
+4F10*Caudal<float> 8|18r38 9|24r38
+5F10*Radiacion<float> 8|13r38 9|12r38
+7E10*EstadoBomba 8|14r42 19r42 9|6r14 13r42 25r42 27|7e34
+7n26*On{7E10} 9|15r19 27r19
+7n30*Off{7E10} 9|6r29
+

@@ -1,0 +1,151 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		d357acec NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.unbounded_io%s  a-tiunio.ads	a-tiunio.ali
+W sistemareal%s		sistemareal.adb		sistemareal.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-charac.ads		20180524051736 2d3ec45b ada.characters%s
+D a-chlat1.ads		20180524051736 66457d31 ada.characters.latin_1%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-finali.ads		20180524051738 bf4f806b ada.finalization%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-string.ads		20180524051736 90ac6797 ada.strings%s
+D a-strmap.ads		20180524051736 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20180524051738 8098c91f ada.strings.unbounded%s
+D a-suteio.ads		20180524051736 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-tiunio.ads		20180524051738 759c6b0c ada.text_io.unbounded_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D main.adb		20190314111444 22368798 main%b
+D sistemareal.ads	20190314102730 04658967 sistemareal%s
+D system.ads		20180524051738 32a08138 system%s
+D s-atocou.ads		20180524051738 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-finmas.ads		20180524051738 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524051738 4ff27390 system.finalization_root%s
+D s-imenne.ads		20180524051736 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20180524051736 c7a851e2 system.img_real%s
+D s-memory.ads		20180524051736 597d6634 system.memory%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stalib.adb		20180524051736 f2fe2716 system.standard_library%b
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20180524051736 b16154c2 system.storage_pools%s
+D s-stposu.ads		20180524051736 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20180524051736 aedef97e system.stream_attributes%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 18|1r6 2r6 24r12 25r12 61r5 61r27 65r13 66r5 70r17 71r9 73r5
+. 73r43 125r9 125r41 132r21 133r13 136r9 136r47 140r5
+X 8 a-string.ads
+16K13*Strings 35e16 18|2r10 25r16 65r17 70r21 73r47 125r45 132r25 136r51
+X 10 a-strunb.ads
+76K21*Unbounded 491e26 18|2w18 25r24 65r25 70r29 73r55 125r53 132r33 136r59
+79R9*Unbounded_String<5|43R9> 474e14 18|25r34
+94V13*To_Unbounded_String{79R9} 18|65s35 70s39 73s65 125s63 132s43 136s69
+X 13 a-textio.ads
+49K13*Text_IO 471e16 18|1r10 24r16 61r9 61r31 66r9 71r13 73r9 125r13 133r17
+. 136r13 140r9
+52P9*File_Type 18|24r24
+53n32*Out_File{53E9} 18|61r39
+86U14*Create 18|61s17
+98U14*Close 18|140s17
+X 14 a-tiunio.ads
+25K21*Unbounded_IO 61e29 18|1w18 66r17 71r21 73r17 125r21 133r25 136r21
+27U14*Put=30:42 18|66s30 71s34 125s34 133s38
+36U14*Put_Line=39:42 18|73s30 136s34
+X 18 main.adb
+5U11*Main 5b11 141l5 141t9
+8i5 maxRow{integer} 12r32 78r33
+9i5 maxCol{integer} 12r43
+12A10 inputData(float)<integer><integer> 15r15
+15a5 dataTable{12A10} 43m5 88r57 88r121 91r72 100r12 122r38 122r56 122r74
+18a5 sd{19|21A10} 84r24 85r24 131m13 132r77
+21a5 od{19|24A10} 122m9 131r23
+24p5 F{13|52P9} 61m24 61r24 66r35 71r39 73r40 125r38 133r43 136r44 140m23
+. 140r23
+25r5 Data{10|79R9} 65m5 66r38 70m9 71r42 132m13 133r46
+28i5 i{integer} 127m9 131r26 134m13 134r16
+30f5 m_sc1{float} 88m9 96m13 105r12 106m13 107r17 108m13 122r92
+31f5 m_sc2{float} 91m9 101m13 113r12 114m13 115r17 116m13 122r99
+34f5 m_oSd1{float} 91r20
+35f5 m_oSt2{float} 88r104 89r32 91r54 92r33
+37f5 m_st1_1{float} 81m13 84m13 88r94 89r41
+38f5 m_st2_1{float} 82m13 85m13 95r12
+68l5 For_Loop1 72l14 72e23
+69e9 s{19|18E10} 70r87
+77l5 For_Loop2 137l14 137e23
+78i9 k{integer} 80r12 84r27 85r27 88r67 88r131 91r82 100r23 122r35 122r49
+. 122r67 122r85 125r98 131r16 132r80
+129l9 For_LoopS 135l18 135e27
+130e13 s{19|18E10} 131r19 132r83
+X 19 sistemareal.ads
+3K9*SistemaReal 18|3w6 18r10 21r10 69r14 70r60 84r32 85r32 88r20 88r39 88r75
+. 89r14 89r52 89r69 122r15 130r18 19|29e16
+6f5*beta{float} 18|88r32
+7f5*Leq{float} 18|88r51
+8f5*h{float} 18|88r87
+9f5*c{float} 18|89r26
+10f5*Cp{float} 18|89r64
+11f5*rho{float} 18|89r81
+18E10*sensores 18|69r26 70r72 130r30 19|18e62
+18n23*St1{18E10} 18|84r44
+18n28*St2{18E10} 18|85r44
+21A10*sensorsData(float)<integer><18E10> 18|18r22
+24A10*outputData(float)<integer> 18|21r22
+27V14*Planta{24A10} 18|122s27
+X 20 system.ads
+67M9*Address
+X 31 s-memory.ads
+53V13*Alloc{20|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{20|67M9} 105i<c,__gnat_realloc>22
+X 37 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+

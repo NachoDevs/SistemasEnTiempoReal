@@ -1,0 +1,72 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U ejercicio4%b		ejercicio4.adb		3e454763 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D ejercicio4.adb	20190305170506 b658f439 ejercicio4%b
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051738 32a08138 system%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20180524051736 c7a851e2 system.img_real%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 8|1r6 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 8|1w10 2r9
+242U14*Put 8|23s9 36s17 48s9
+263U14*Put_Line 8|18s5 26s5 27s5 38s13 42s5 43s5
+X 8 ejercicio4.adb
+4U11*ejercicio4 4b11 52l5 52t15
+6A10 vectorA(integer)<integer> 12r12
+8A10 matrix(float)<integer><integer><integer> 13r11
+10A10 vectorB(float)<integer> 14r12
+12a5 vecA{6A10} 22m9 23r29
+13a5 mat{8A10} 35m17 36r34
+14a5 vecB{10A10} 47m9 48r25
+20l5 For_Loop1 24l14 24e23
+21i9 x{integer} 22r15 23r35
+29l5 For_Loop2 40l14 40e23
+30i9 i{integer} 35r22 36r39
+31l9 For_Loop3 39l18 39e27
+32i13 j{integer} 35r25 36r42
+33l13 For_Loop4 37l22 37e31
+34i17 k{integer} 35r28 36r45
+45l5 For_Loop5 49l14 49e23
+46i9 y{integer} 47r15 48r30
+

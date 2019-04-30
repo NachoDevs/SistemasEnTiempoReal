@@ -1,0 +1,32 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U apartado1%b		apartado1.adb		10e56692 NE OO SU IL
+W putter%s		putter.adb		putter.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D apartado1.adb		20190402150446 a7650cf5 apartado1%b
+D putter.ads		20190402150222 b7806a67 putter%s
+D system.ads		20180524051738 32a08138 system%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
+D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
+X 1 apartado1.adb
+3U11*apartado1 3b11 28l5 28t14
+5i5 i{integer} 13m5 19m5 26m5
+9i9 i{integer} 10r44
+15i13 i{integer} 16r44
+22i13 i{integer} 23r44
+X 2 putter.ads
+1K9*Putter 1|1w6 10r13 16r13 23r13 2|3e11
+2U14*Put_Line 1|10s20 16s20 23s20
+

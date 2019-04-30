@@ -1,0 +1,82 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U io%b			io.adb			4d849be9 NE OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U io%s			io.ads			ab652dfa EE NE OO PK IU
+W tipos_datos%s		tipos_datos.ads		tipos_datos.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D io.ads		20190409151336 dd5741f8 io%s
+D io.adb		20190409150748 18ce694b io%b
+D system.ads		20180524051738 32a08138 system%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imgrea.ads		20180524051736 c7a851e2 system.img_real%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D tipos_datos.ads	20190326174204 76326c02 tipos_datos%s
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 2r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 2r9
+X 10 io.ads
+4K9*IO 20l5 20e7 11|4b14 67l5 67t7
+6V14*Leer{string} 6<20 11|8b14 12t8
+6f20 t_temp{27|3F10} 11|8b20 10m9 11r43
+7V14*Leer{string} 7<20 11|14b14 18t8
+7f20 t_caud{27|4F10} 11|14b20 16m9 17r38
+8V14*Leer{string} 8<20 11|20b14 24t8
+8f20 t_rad{27|5F10} 11|20b20 22m9 23r41
+10V14*Escribir{string} 10>24 11|28b14 31t8
+10f24 t_temp{27|3F10} 11|28b24 30r47
+11V14*Escribir{string} 11>24 11|33b14 36t8
+11f24 t_caud{27|4F10} 11|33b24 35r42
+12V14*Escribir{string} 12>24 11|38b14 41t8
+12f24 t_rad{27|5F10} 11|38b24 40r45
+14V14*Enviar{string} 14>22 11|45b14 48t8
+14f22 t_temp{27|3F10} 11|45b22 47r44
+15V14*Enviar{string} 15>22 11|50b14 53t8
+15f22 t_caud{27|4F10} 11|50b22 52r39
+16V14*Enviar{string} 16>22 11|55b14 58t8
+16f22 t_rad{27|5F10} 11|55b22 57r42
+18V14*Verificar{string} 11|62b14 65t8
+X 27 tipos_datos.ads
+1K9*Tipos_Datos 10|1w6 2r5 27|9e16
+3F10*Temperatura<float> 10|6r33 10r36 14r34 11|8r33 28r36 45r34
+4F10*Caudal<float> 10|7r33 11r36 15r34 11|14r33 33r36 50r34
+5F10*Radiacion<float> 10|8r33 12r36 16r34 11|20r33 38r35 55r33
+
