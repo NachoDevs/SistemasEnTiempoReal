@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 96" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\modulos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\modulos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 97" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\mainciclico.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 28" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\modulos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 20" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 28" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\modulos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 28" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\modulos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_Tasking.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 28" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\modulos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 97" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\mainherenciaprioridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 10" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\mainherenciaprioridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_Chrono.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_Chrono.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_CPU.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_Tasking.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 8" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_Tasking.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 13" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_Tasking.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 100" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 56" line=" 5" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\practica3.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 15" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 14" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\modulos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 69" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 43" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 13" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_Tasking.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_Chrono.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 13" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\mainherenciaprioridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 33" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\mainherenciaprioridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 79" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\mainherenciaprioridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 33" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\mainherenciaprioridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 73" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\mainherenciaprioridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\modulos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\modulos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 74" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\mainherenciaprioridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 27" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\mainherenciaprioridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\mainciclico.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_CPU.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_Tasking.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_Tasking.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 13" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_Tasking.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\mainciclico.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 69" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 8" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\STR_Tasking.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 46" line=" 24" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 21" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\semaforos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Relacion9\src\semaforos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica3\practica3.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica3\practica3.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 96" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica3\practica3.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 22" line=" 70" >
+      <vfs_project>C:\Dev\ada\SistemasEnTiempoReal\Practica3\practica3.gpr</vfs_project>
+      <vfs_file>C:\Dev\ada\SistemasEnTiempoReal\Practica3\src\io.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

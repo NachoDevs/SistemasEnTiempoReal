@@ -1,0 +1,107 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U str_chrono%b		str_chrono.adb		c15c285d NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+U str_chrono%s		str_chrono.ads		3a235557 EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20180524051736 bb51c45a ada.numerics%s
+D a-nuflra.ads		20180524051736 4056ab7a ada.numerics.float_random%s
+D a-reatim.ads		20180524051738 0240fc73 ada.real_time%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-c.ads		20180524051736 5421119b interfaces.c%s
+D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D str_chrono.ads	20180202160514 7a75fe2d str_chrono%s
+D str_chrono.adb	20180202160514 31749959 str_chrono%b
+D system.ads		20180524051738 32a08138 system%s
+D s-atacco.ads		20180524051738 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
+D s-multip.ads		20180524051736 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20180524051738 2e5b26a9 system.os_interface%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-rannum.ads		20180524051736 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stausa.ads		20180524051736 017a0a05 system.stack_usage%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20180524051738 601f6b72 system.task_info%s
+D s-taspri.ads		20180524051738 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20180524051738 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20180524051738 1d8c1ccb system.tasking%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D s-win32.ads		20180524051736 b7f96285 system.win32%s
+X 1 ada.ads
+16K9*Ada 20e8 15|5r6 5r37 16|5r6 5r23 6r6 6r25 23r7 40r7
+X 4 a-numeri.ads
+16K13*Numerics 32e17 15|5r10 5r41
+X 5 a-nuflra.ads
+41K22*Float_Random 74e30 15|5w19 5r50
+X 6 a-reatim.ads
+39K13*Real_Time 185e18 16|6w10 6r29
+X 9 a-textio.ads
+49K13*Text_IO 471e16 16|5w10 5r27 23r11 40r11
+166U14*New_Line 16|25s10 35s7 41s7 91s13 93s10 95s7
+242U14*Put 16|23s19 26s10 29s16 31s16 40s19 46s16 48s16 55s28 57s28 60s25
+. 63s22 69s28 71s28 74s25 77s22 82s25 84s25 87s22
+X 15 str_chrono.ads
+7K9*STR_Chrono 12E4 18l5 18e15 16|8b14 106l5 106t15
+8U14*Count 8>20 16|9b14 19l8 19t13
+8i20 id{integer} 16|9b20 13r17
+9U14*PaintSimple 16|21b14 36l8 36t19
+10U14*Paint 16|38b14 96l8 96t13
+12i4 N{integer} 15r20 16|12r19 24r19 43r19 100r19
+13i4 M{integer} 15r25 16|14r20 16r20 27r22 50r25 101r22
+15a4 data(boolean) 16|14m13 16m13 28r16 52r22 54r28 54r40 66r22 68r28 68r40
+. 81r25 81r38 102m13 102r26
+17U14 Shift 16|11s7 98b14 105l8 105t13
+X 16 str_chrono.adb
+12i11 i{integer} 13r13 14r18 16r18
+24i11 i{integer} 26r14 28r21
+27i14 j{integer} 28r23
+43i11 i{integer} 46r20 52r27 54r33 54r45 66r27 68r33 68r45 81r30 81r43
+44i14 k{integer} 45r16 51r19 65r22 79r22
+50i17 j{integer} 52r29 53r25 54r35 54r47 66r29 67r25 68r35 68r47 80r22 81r32
+. 81r45
+100i11 i{integer} 102r18 102r31
+101i14 j{integer} 102r20 102r33
+X 31 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

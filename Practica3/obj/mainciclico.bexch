@@ -1,0 +1,30 @@
+[GENERATED OBJECT FILE]
+b__mainciclico.o
+[PROJECT FILES]
+C:\Dev\ada\SistemasEnTiempoReal\Practica3\practica3.gpr
+20190514154402
+[BOUND OBJECT FILES]
+C:\Dev\ada\SistemasEnTiempoReal\Practica3\obj\semaforos.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica3\obj\STR_Chrono.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica3\obj\STR_CPU.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica3\obj\STR_Tasking.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica3\obj\tipos_datos.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica3\obj\control.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica3\obj\io.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica3\obj\modulos.o
+C:\Dev\ada\SistemasEnTiempoReal\Practica3\obj\mainciclico.o
+[GENERATED SOURCE FILES]
+b__mainciclico.ads
+b__mainciclico.adb
+b__mainciclico.ali
+[RESULTING OPTIONS]
+-LC:\Dev\ada\SistemasEnTiempoReal\Practica3\obj\
+-LC:\Dev\ada\SistemasEnTiempoReal\Practica3\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnarl.a
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

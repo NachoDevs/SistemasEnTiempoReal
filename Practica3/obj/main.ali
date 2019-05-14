@@ -1,0 +1,131 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_ALLOCATORS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+RV MAX_TASKS=1+
+RV MAX_ASYNCHRONOUS_SELECT_NESTING=1+
+
+U main%b		main.adb		7c3a810c NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W modulos%s		modulos.adb		modulos.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.async_delays%s  s-taasde.adb	s-taasde.ali
+Z system.tasking.async_delays.enqueue_rt%s  s-tadert.adb  s-tadert.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20180524051738 0240fc73 ada.real_time%s
+D a-retide.ads		20180524051738 081cdaa4 ada.real_time.delays%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D control.ads		20190409150934 dee8c3ed control%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-c.ads		20180524051736 5421119b interfaces.c%s
+D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D io.ads		20190409151336 dd5741f8 io%s
+D main.adb		20190514145100 734d5f54 main%b
+D modulos.ads		20190409151406 0d37222b modulos%s
+D system.ads		20180524051738 32a08138 system%s
+D s-atacco.ads		20180524051738 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-multip.ads		20180524051736 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20180524051738 2e5b26a9 system.os_interface%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stausa.ads		20180524051736 017a0a05 system.stack_usage%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20180524051738 601f6b72 system.task_info%s
+D s-taspri.ads		20180524051738 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20180524051738 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20180524051738 1d8c1ccb system.tasking%s
+D s-taasde.ads		20180524051738 422600df system.tasking.async_delays%s
+D s-tadert.ads		20180524051738 16f69e8e system.tasking.async_delays.enqueue_rt%s
+D s-tassta.ads		20180524051738 cca55c94 system.tasking.stages%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D s-win32.ads		20180524051736 b7f96285 system.win32%s
+D tipos_datos.ads	20190326174204 76326c02 tipos_datos%s
+X 1 ada.ads
+16K9*Ada 20e8 16|3r6 4r5
+X 4 a-reatim.ads
+39K13*Real_Time 185e18 16|3w10 4r9
+49O9*Time<duration> 16|14r33 15r33
+54O9*Time_Span<duration> 16|16r15 17r15 18r15 19r15 20r15
+61V13*Clock{49O9} 16|28s20 49s20 70s20
+65V14*"+"{49O9} 16|32s32 40s32 53s32 61s32 81s32
+119V13*Milliseconds{54O9} 16|16s28 17s28 18s28 19s28 20s28
+X 16 main.adb
+6U11*Main 6b11 96l5 96t9
+8i5 reps{integer} 29r23 50r23 71r23
+10i5 i{integer}
+11i5 j{integer}
+12i5 k{integer}
+14o5 Tiempo1{4|49O9} 28m9 30r26 32r24 40m13 40r24
+14o14 Tiempo2{4|49O9} 49m9 51r26 53r24 61m13 61r24
+14o23 Tiempo3{4|49O9} 70m9 72r26 73r24 81m13 81r24
+15o5 Limite1{4|49O9} 32m13 34r30
+15o14 Limite2{4|49O9} 53m13 55r30
+15o23 Limite3{4|49O9} 73m13 75r30
+16o5 C1{4|54O9} 32r34
+17o5 C2{4|54O9} 53r34
+18o5 T1{4|54O9} 40r34
+19o5 T2{4|54O9} 61r34
+20o5 T3{4|54O9} 81r34
+22T15 CS 23r27 26b15 42t8 89r30
+23P10 REF_CS(22T15) 89r16
+29i13 i{integer}
+44T15 MD 45r27 47b15 63t8 90r30
+45P10 REF_MD(44T15) 90r16
+50i13 i{integer}
+65T15 SS 66r27 68b15 83t8 91r30
+66P10 REF_SS(65T15) 91r16
+71i13 i{integer}
+89p9 m_cs{23P10}
+90p9 m_md{45P10}
+91p9 m_ss{66P10}
+X 17 modulos.ads
+7K9*modulos 16|1w6 37r17 58r17 78r17 17|25e12
+17U15*CampoSolar 16|37s25
+19U15*ModuloDestilacion 16|58s25
+21U15*SistemaDeSeguridad 16|78s25
+X 29 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

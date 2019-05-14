@@ -1,0 +1,99 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U mainciclico%b		mainciclico.adb		512f37c3 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W modulos%s		modulos.adb		modulos.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-finali.ads		20180524051738 bf4f806b ada.finalization%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20180524051738 0240fc73 ada.real_time%s
+D a-retide.ads		20180524051738 081cdaa4 ada.real_time.delays%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D control.ads		20190409150934 dee8c3ed control%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-c.ads		20180524051736 5421119b interfaces.c%s
+D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D io.ads		20190514165242 cb24dfeb io%s
+D mainciclico.adb	20190514172114 5e58e99b mainciclico%b
+D modulos.ads		20190409151406 0d37222b modulos%s
+D semaforos.ads		20190402160222 bf107c05 semaforos%s
+D system.ads		20180524051738 32a08138 system%s
+D s-atacco.ads		20180524051738 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-finroo.ads		20180524051738 4ff27390 system.finalization_root%s
+D s-multip.ads		20180524051736 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20180524051738 2e5b26a9 system.os_interface%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stausa.ads		20180524051736 017a0a05 system.stack_usage%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20180524051738 601f6b72 system.task_info%s
+D s-taspri.ads		20180524051738 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20180524051738 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20180524051738 1d8c1ccb system.tasking%s
+D s-taprob.ads		20180524051738 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20180524051738 60ad3dae system.tasking.protected_objects.entries%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+D s-win32.ads		20180524051736 b7f96285 system.win32%s
+D tipos_datos.ads	20190326174204 76326c02 tipos_datos%s
+X 1 ada.ads
+16K9*Ada 20e8 17|2r6 3r5
+X 5 a-reatim.ads
+39K13*Real_Time 185e18 17|2w10 3r9
+49O9*Time<duration> 17|13r33 14r33
+54O9*Time_Span<duration> 17|15r15 16r15 17r15 18r15 19r15
+61V13*Clock{49O9} 17|24s20 31s20 40s20
+65V14*"+"{49O9} 17|29s28 34s28 38s28 43s28 47s28
+119V13*Milliseconds{54O9} 17|15s28 16s28 17s28 18s28 19s28
+X 17 mainciclico.adb
+5U11*mainCiclico 5b11 50l5 50t16
+7i5 reps{integer} 23r19
+9i5 i{integer}
+10i5 j{integer}
+11i5 k{integer}
+13o5 Tiempo1{5|49O9} 31m9 32r22 34r20 38m9 38r20
+13o14 Tiempo2{5|49O9} 40m9 41r22 43r20 47m9 47r20
+13o23 Tiempo3{5|49O9} 24m9 25r22 26r20 29m9 29r20
+14o5 Limite1{5|49O9} 34m9
+14o14 Limite2{5|49O9} 43m9
+14o23 Limite3{5|49O9} 26m9
+15o5 C1{5|54O9} 34r30
+16o5 C2{5|54O9} 43r30
+17o5 T1{5|54O9} 38r30
+18o5 T2{5|54O9} 47r30
+19o5 T3{5|54O9} 29r30
+23i9 i{integer}
+X 18 modulos.ads
+7K9*modulos 17|1w6 27r9 36r9 45r9 18|25e12
+17U15*CampoSolar 17|36s17
+19U15*ModuloDestilacion 17|45s17
+21U15*SistemaDeSeguridad 17|27s17
+X 32 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+
