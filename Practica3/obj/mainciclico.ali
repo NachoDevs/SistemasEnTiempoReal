@@ -10,10 +10,11 @@ RV NO_DELAY
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U mainciclico%b		mainciclico.adb		512f37c3 NE OO SU
+U mainciclico%b		mainciclico.adb		6d24a801 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+Z interfaces%s		interfac.ads		interfac.ali
 W modulos%s		modulos.adb		modulos.ali
 
 D ada.ads		20180524051736 76789da1 ada%s
@@ -32,7 +33,7 @@ D i-c.ads		20180524051736 5421119b interfaces.c%s
 D i-cstrin.ads		20180524051736 341d0ddf interfaces.c.strings%s
 D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
 D io.ads		20190514165242 cb24dfeb io%s
-D mainciclico.adb	20190514172114 5e58e99b mainciclico%b
+D mainciclico.adb	20190514175440 62537659 mainciclico%b
 D modulos.ads		20190409151406 0d37222b modulos%s
 D semaforos.ads		20190402160222 bf107c05 semaforos%s
 D system.ads		20180524051738 32a08138 system%s
@@ -65,34 +66,23 @@ X 1 ada.ads
 16K9*Ada 20e8 17|2r6 3r5
 X 5 a-reatim.ads
 39K13*Real_Time 185e18 17|2w10 3r9
-49O9*Time<duration> 17|13r33 14r33
-54O9*Time_Span<duration> 17|15r15 16r15 17r15 18r15 19r15
-61V13*Clock{49O9} 17|24s20 31s20 40s20
-65V14*"+"{49O9} 17|29s28 34s28 38s28 43s28 47s28
-119V13*Milliseconds{54O9} 17|15s28 16s28 17s28 18s28 19s28
+49O9*Time<duration> 17|14r14
+54O9*Time_Span<duration>
+65V14*"+"{49O9} 17|20s24
+119V13*Milliseconds{54O9} 17|20s26
 X 17 mainciclico.adb
-5U11*mainCiclico 5b11 50l5 50t16
-7i5 reps{integer} 23r19
-9i5 i{integer}
-10i5 j{integer}
-11i5 k{integer}
-13o5 Tiempo1{5|49O9} 31m9 32r22 34r20 38m9 38r20
-13o14 Tiempo2{5|49O9} 40m9 41r22 43r20 47m9 47r20
-13o23 Tiempo3{5|49O9} 24m9 25r22 26r20 29m9 29r20
-14o5 Limite1{5|49O9} 34m9
-14o14 Limite2{5|49O9} 43m9
-14o23 Limite3{5|49O9} 26m9
-15o5 C1{5|54O9} 34r30
-16o5 C2{5|54O9} 43r30
-17o5 T1{5|54O9} 38r30
-18o5 T2{5|54O9} 47r30
-19o5 T3{5|54O9} 29r30
-23i9 i{integer}
+5U11*mainCiclico 5b11 36l5 36t16
+7i5 reps{integer} 18r19
+9M10 Ciclo 10r13
+10m5 Turno{9M10} 24r14 32m9 32r18
+12i5 i{integer}
+14o5 Tiempo{5|49O9} 20m9 20r17 22r22
+18i9 i{integer}
 X 18 modulos.ads
-7K9*modulos 17|1w6 27r9 36r9 45r9 18|25e12
-17U15*CampoSolar 17|36s17
-19U15*ModuloDestilacion 17|45s17
-21U15*SistemaDeSeguridad 17|27s17
+7K9*modulos 17|1w6 25r19 25r47 25r67 26r19 27r19 27r47 28r19 18|25e12
+17U15*CampoSolar 17|25s55 27s55
+19U15*ModuloDestilacion 17|25s75
+21U15*SistemaDeSeguridad 17|25s27 26s27 27s27 28s27
 X 32 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22

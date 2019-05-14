@@ -6,45 +6,31 @@ procedure mainCiclico is
     
     reps : integer := 10; -- Número de iteraciones en la ejecucion del ejercicio
     
+    type Ciclo is mod 4;
+    Turno : Ciclo := 0;
+    
     i : integer := 0;     -- Variable auxiliar para el bucle del Campo Solar
-    j : integer := 0;     -- Variable auxiliar para el bucle del Modulo de Destilacion
-    k : integer := 0;     -- Variable auxiliar para el bucle del Sistema de Seguridad
 
-    Tiempo1, Tiempo2, Tiempo3 : Time;            -- Variable para controlar el tiempo de cada modulo
-    Limite1, Limite2, Limite3 : Time;            -- Variable para almacenar el limite temporal de cada modulo
-    C1      : Time_Span := Milliseconds (10);    -- Variable para almacenar el tiempo de computo de un modulo
-    C2      : Time_Span := Milliseconds (10);    -- Variable para almacenar el tiempo de computo de un modulo
-    T1      : Time_Span := Milliseconds (100);   -- Variable para almacenar el de periodo de un modulo
-    T2      : Time_Span := Milliseconds (200);   -- Variable para almacenar el de periodo de un modulo   
-    T3      : Time_Span := Milliseconds (50);    -- Variable para almacenar el de periodo de un modulo   
-        
+    Tiempo : Time;
+    
 begin
 
     for i in 1 .. reps loop
-	Tiempo3 := clock;
-	delay until (Tiempo3);
-	limite3 := Tiempo3;
-	Modulos.SistemaDeSeguridad;
-	-- Añadimos el periodo
-	Tiempo3 := Tiempo3 + T3;
 	
-	Tiempo1 := clock;
-	delay until (Tiempo1);
-	-- Añadimos el timepo de computo
-	limite1 := Tiempo1 + C1;
-	-- Ejecutamos los pasos que sigue el campo solar
-	Modulos.CampoSolar;
-	-- Añadimos el periodo
-	Tiempo1 := Tiempo1 + T1;
+	Tiempo:=Tiempo + Milliseconds(50);
+	
+	delay until (Tiempo);
 
-	Tiempo2 := clock;
-	delay until (Tiempo2);
-	-- Añadimos el timepo de computo
-	limite2 := Tiempo2 + C2;
-	-- Ejecutamos los pasos que sigue el modulo de destilacion
-	Modulos.ModuloDestilacion;
-	-- Añadimos el periodo
-	Tiempo2 := Tiempo2 + T2;
+	case Turno is
+	when 0 => Modulos.SistemaDeSeguridad; Modulos.CampoSolar; Modulos.ModuloDestilacion;
+	when 1 => Modulos.SistemaDeSeguridad;
+	when 2 => Modulos.SistemaDeSeguridad; Modulos.CampoSolar;
+	when 3 => Modulos.SistemaDeSeguridad;  
+	
+	end case;
+
+	Turno := Turno + 1;
+	
     end loop;
    
 end mainCiclico;
