@@ -21,6 +21,7 @@ begin
 	
 	delay until (Tiempo);
 
+	-- En funcion del diseño realizado en la asignacio de prioridades
 	case Turno is
 	when 0 => Modulos.SistemaDeSeguridad; Modulos.CampoSolar; Modulos.ModuloDestilacion;
 	when 1 => Modulos.SistemaDeSeguridad;

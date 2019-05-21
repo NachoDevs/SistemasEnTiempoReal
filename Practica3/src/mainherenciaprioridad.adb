@@ -33,7 +33,6 @@ procedure mainHerenciaPrioridad is
     begin
 	Tiempo1 := clock;
 	for i in 1 .. reps loop
-	    --delay until (Tiempo1);
 	    -- Añadimos el timepo de computo
 	    limite1 := Tiempo1 + C1;
 	    -- Ejecutamos los pasos que sigue el campo solar
@@ -52,7 +51,6 @@ procedure mainHerenciaPrioridad is
     begin
 	Tiempo2 := clock;
 	for i in 1 .. reps loop
-	    --delay until (Tiempo2);
 	    -- Añadimos el timepo de computo
 	    limite2 := Tiempo2 + C2;
 	    -- Ejecutamos los pasos que sigue el modulo de destilacion
@@ -71,7 +69,6 @@ procedure mainHerenciaPrioridad is
     begin
 	Tiempo3 := clock;
 	for i in 1 .. reps loop
-	    --delay until (Tiempo3);
 	    limite3 := Tiempo3;
 	    -- Ejecutamos los pasos que sigue el sistema de seguridad
 	    Modulos.SistemaDeSeguridad;
